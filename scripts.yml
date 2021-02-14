@@ -1,0 +1,5 @@
+scripts:
+  start: deno run --allow-net --allow-env --allow-read -c tsconfig.json src/main.ts
+  start:dev: deno run --allow-net --allow-env --allow-read --unstable --watch -c tsconfig.json src/main.ts
+  test: deno test --allow-net src/
+  format: deno fmt src/
